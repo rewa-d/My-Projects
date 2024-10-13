@@ -1,0 +1,134 @@
+﻿.horizontal-line {
+    width: 80%; /* Adjust the width as per your requirement */
+    height: 1px; /* Adjust the thickness of the line */
+    background-color: lightgrey; /* Change the color of the line */
+    margin: 0 auto; /* Centers the line horizontally */
+}
+
+#text-slash {
+    text-decoration: line-through;
+    text-align: center;
+}
+
+#s-text {
+    text-align: center;
+    color: grey;
+}
+
+.my-container {
+    display: block;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+#description {
+    color: grey;
+    font-size: 1.2rem;
+}
+
+.desc-container {
+    width: 400px; /* just for demonstration */
+    padding: 5px;
+}
+
+.left-align {
+    text-align: left;
+}
+
+#loginForm {
+    width: 300px; /* Adjust the width as needed */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-top: 2.5rem;
+}
+
+.login-body {
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn_login,
+#btn_signup {
+    width: 100%; /* Make the button take the full width */
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#txt_name,
+#txt_pass {
+    width: 80%;
+    box-sizing: border-box;
+    align-content: center;
+    margin: auto;
+    display: flex;
+}
+
+.custom-link {
+    color: black;
+}
+
+.custom-link:hover {
+        color: blue;
+}
+
+#txt_fname, #txt_lname, #txt_email, #txt_pass, #txt_user, #txt_repass {
+    width: 80%;
+    box-sizing: border-box;
+    align-content: center;
+    margin: auto;
+    display: flex;
+}
+
+.signUp-body {
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#signUpForm {
+    width: 300px; /* Adjust the width as needed */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-top: 2.5rem;
+}
+
+.button-link {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #007bff; /* Example button background color */
+    color: #fff; /* Example button text color */
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+    .button-link:hover {
+        background-color: #0056b3; /* Example button background color on hover */
+    }
+
+.big-box {
+    width: 50%; /* Adjust the width as needed */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin:2.5rem auto;
+
+}
+
+.text-right{text-align:right!important}

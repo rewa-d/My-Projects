@@ -1,0 +1,5 @@
+﻿.advertisement {
+        width: auto; /* Set width to adjust automatically */
+        max-width: 500px; /* Limit maximum width to container width */
+        height: auto; /* Allow height to adjust proportionally */
+}

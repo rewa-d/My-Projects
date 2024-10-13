@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+	<Ad>
+		<ImageUrl>img1.png</ImageUrl>
+		<NavigateUrl>https://www.hibox.co/blog/task-management-app-which-task-manager-is-best/</NavigateUrl>
+		<AlternateText>Best Task Management Apps</AlternateText>
+		<Impressions>5</Impressions>
+	</Ad>
+
+	<Ad>
+		<ImageUrl>img2.png</ImageUrl>
+		<NavigateUrl>https://friday.app/p/to-do-lists</NavigateUrl>
+		<AlternateText>Best Online To Do Lists</AlternateText>
+		<Impressions>7</Impressions>
+	</Ad>
+
+	<Ad>
+		<ImageUrl>img3.png</ImageUrl>
+		<NavigateUrl>https://zapier.com/blog/best-todo-list-apps/</NavigateUrl>
+		<AlternateText>Best To Do List Apps</AlternateText>
+		<Impressions>4</Impressions>
+	</Ad>
+</Advertisements>
