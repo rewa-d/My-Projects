@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Results Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>🎓 Results Calculator</h1>
+
+      <section class="form-section">
+        <h2>Cut-Off Calculator (Engg/Medical)</h2>
+        <label>Maths:</label>
+        <input type="number" id="maths" placeholder="Enter marks out of 100" />
+        <label>Physics:</label>
+        <input
+          type="number"
+          id="physics"
+          placeholder="Enter marks out of 100"
+        />
+        <label>Chemistry:</label>
+        <input
+          type="number"
+          id="chemistry"
+          placeholder="Enter marks out of 100"
+        />
+        <button onclick="calculateCutoff()">Calculate Cut-Off</button>
+        <p id="cutoffResult"></p>
+      </section>
+
+      <section class="form-section">
+        <h2>Grade Calculator</h2>
+        <label>Enter Marks:</label>
+        <input
+          type="number"
+          id="gradeMarks"
+          placeholder="Enter marks out of 100"
+        />
+        <button onclick="calculateGrade()">Get Grade</button>
+        <p id="gradeResult"></p>
+      </section>
+
+      <section class="form-section">
+        <h2>CGPA Calculator</h2>
+        <label>Enter GPA for 5 Subjects (comma separated):</label>
+        <input
+          type="text"
+          id="cgpaInput"
+          placeholder="e.g., 8.2,7.5,9.0,8.6,7.8"
+        />
+        <button onclick="calculateCGPA()">Calculate CGPA</button>
+        <p id="cgpaResult"></p>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
