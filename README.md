@@ -48,3 +48,19 @@ This project contains Python applications that demonstrate Python's capabilities
 ### Python Calculator
 
 A simple calculator application built with Python, providing basic arithmetic functions via a user-friendly command-line interface or graphical user interface (GUI). It demonstrates Python’s ability to handle mathematical operations efficiently.
+
+## Wordpress
+
+This project includes websites built using WordPress to explore CMS-based development. It demonstrates an understanding of blogging platforms, visual customization, and content management through themes and widgets.
+
+### TrendTraverse
+
+A blog-style website developed using WordPress, showcasing a variety of topics and blog post categories. This project demonstrates knowledge of CMS functionality, custom themes, visual layout design, and content management. It's built as a learning project to understand the practical aspects of building and maintaining a WordPress website.
+
+## Figma
+
+This project showcases UI/UX design work using Figma. It includes interactive prototypes and mobile app interfaces focused on usability, layout design, and visual storytelling for user-centric applications.
+
+### Wanderlusters
+
+A mobile app prototype designed using Figma for travel lovers. It allows users to explore destinations around the world, bookmark favorite locations, and plan future trips. The design focuses on intuitive navigation and aesthetic visuals, laying the foundation for a full-stack travel planning app in future development phases.
