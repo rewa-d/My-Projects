@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TicTacToe" parent="Theme.Material3.DayNight.NoActionBar">
+        <!--Primary Brand Color -->
+        <item name="colorPrimary">@color/periwinkle</item>
+        <item name="colorPrimaryVariant">@color/periwinkle</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!--Secondary Brand Color -->
+        <item name="colorSecondary">@color/lightblue_200</item>
+        <item name="colorSecondaryVariant">@color/lightblue_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!--Status Bar Color -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <style name="ActivityAnimation" parent="android:Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_in_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_right</item>
+    </style>
+</resources>

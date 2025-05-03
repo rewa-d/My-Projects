@@ -64,3 +64,16 @@ This project showcases UI/UX design work using Figma. It includes interactive pr
 ### Wanderlusters
 
 A mobile app prototype designed using Figma for travel lovers. It allows users to explore destinations around the world, bookmark favorite locations, and plan future trips. The design focuses on intuitive navigation and aesthetic visuals, laying the foundation for a full-stack travel planning app in future development phases.
+
+## Android Development
+
+This section contains Android applications developed using Java and Android Studio, showcasing UI/UX design and logic implementation for mobile platforms.
+
+### Tic Tac Toe
+
+A classic Tic Tac Toe game with two gameplay modes:
+
+    - Multiplayer (on the same device)
+    - Single Player vs AI
+
+It features a clean user interface, game reset option, and highlights the winning player. Built using Android Studio in Java.
