@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Velocity Bot</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<!-- ==== CHAT BUTTON ==== -->
+<div id="chat-button">
+  <button>💬</button>
+</div>
+
+<!-- ==== CHAT WINDOW ==== -->
+<div id="chat-widget">
+  <div class="chat-header">
+    <div>
+      <div class="chat-title">Velocity Bot</div>
+      <div class="chat-subtitle">We typically reply in a few minutes</div>
+    </div>
+    <button onclick="toggleChat()">✕</button>
+  </div>
+
+  <div id="chat-messages">
+    <div class="bot-msg">Hello and welcome to Velocity Consultancy! How can I help you today?</div>
+  </div>
+
+  <div class="chat-input">
+    <input id="chat-input" type="text" placeholder="Write a message..." />
+    <button onclick="sendMessage()">📤</button>
+  </div>
+</div>
+
+<script src="/static/script.js"></script>
+</body>
+</html>
